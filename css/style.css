@@ -1,26 +1,30 @@
 header{
   background-color: #F15B31;
   padding: 30px 20px
-  }
-  footer{
+}
+
+footer{
   text-transform: uppercase;
   padding:0 20px;
-  background-color: #0d2c40;
+  background-color: red;
+  /*height: 50px;*/
   color:white;
   font-size: 14px;
   letter-spacing: 0.08em;
   font-weight: 500;
 }
+
 .copyright{
     font-family: "Raleway";
     float: left;
+    color:black;
 }
-  .message{
-    font-family: "Raleway";
-    float: right;
 
-  }
+.message{
+  font-family: "Raleway";
+  float: right;
 }
+
 .clearfix:after {
   visibility: hidden;
   display: block;
